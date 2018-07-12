@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MemoGet">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contents"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>
+
